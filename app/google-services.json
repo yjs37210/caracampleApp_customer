@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "706602603064",
+    "firebase_url": "https://getdata-from-rapa-default-rtdb.firebaseio.com",
+    "project_id": "getdata-from-rapa",
+    "storage_bucket": "getdata-from-rapa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706602603064:android:4bb90a4f7048e348abcccd",
+        "android_client_info": {
+          "package_name": "com.example.caracample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706602603064-2m1u2ht468d9dg1f9n1asokakdj9amt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmqQPSf5kXEk00BkxyPArmDXuoO85vycE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706602603064-2m1u2ht468d9dg1f9n1asokakdj9amt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

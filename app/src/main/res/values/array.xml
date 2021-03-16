@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="car_name_array">
+        <item>CaravanA</item>
+        <item>CaravanB</item>
+        <item>CaravanC</item>
+        <item>CaravanD</item>
+        <item>CaravanE</item>
+        <item>CaravanF</item>
+        <item>CaravanG</item>
+        <item>CaravanH</item>
+        <item>CaravanI</item>
+    </string-array>
+</resources>

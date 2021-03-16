@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tab_Map"
+        android:icon="@drawable/map"
+        android:title="지도"
+        android:visible="true" />
+    <item
+        android:id="@+id/tab_Control"
+        android:icon="@drawable/control"
+        android:title="기능제어" />
+    <item
+        android:id="@+id/tab_water"
+        android:icon="@drawable/tem"
+        android:title="온수 확인" />
+    <item
+        android:id="@+id/tab_QnA"
+        android:icon="@drawable/qna"
+        android:title="문의사항" />
+</menu>

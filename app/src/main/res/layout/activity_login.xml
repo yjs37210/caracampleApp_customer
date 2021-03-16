@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="387dp"
+        android:layout_height="373dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/caracample_logo" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_bg"
+        android:text="Login"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/elandcohicem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876"
+        app:strokeColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/input_pw"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/elandcohicem"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/pw"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="User PW"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColor="#021825"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.992" />
+
+    <EditText
+        android:id="@+id/input_id"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/elandcohicem"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/id"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="User ID"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="#021825"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/input_pw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.995" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
