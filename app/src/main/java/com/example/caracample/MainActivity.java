@@ -126,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
     public Boolean isServiceRunning(String class_name){
         ActivityManager manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
         for(ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)){
